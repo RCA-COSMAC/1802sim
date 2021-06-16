@@ -22,8 +22,11 @@ FEATURES
 
 
 Current v1.4.0.0 May 2021: Fixed some bugs! Added new Serial Terminal parameters. Now runs "Cenker" RCA Basic3 v1.1 and Chuck Yakym's Membership Card Monitor. Details below.
+
 v1.3.3.0 August 2020: Added raw binary (.bin) to the options for memory load/save from/to a file. Prompts for load address. Thanks to Bob.
+
 v1.3.1.0 June 2020: Fixed bug when loading (and saving) some Intel Hex files; Thanks to Kosmas.
+
 v1.2.1.2 October 2019: Fixed some register issues; Thanks to Andy and Jeff.
 
 Video about 1802 testing by Hey Birt! Includes a look at this 1802 simulator. Much thanks to Jeff - watch the video at https://www.youtube.com/watch?v=XPwuwjtjXnk&t=2s 
