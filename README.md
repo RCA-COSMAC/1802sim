@@ -5,7 +5,7 @@ FEATURES
 ========
 - View and Edit contents of all processor registers.
 - Load/Save any memory block from/to a file in Intel Hex format (.hex), "memory dump" format (.rom), or raw binary (.bin) (i.e most EPROM burners e.g TL866).
-  Note the .rom file format is a text file formatted as   :<address> <byte1> <byte2> ... <byte16><CR+LF> etc..  for example  :0000 71 00 f8 00 b3 f8 09 a3 d3 c0 02 92 f8 01 b6 f8
+  Note the .rom file format is a text file formatted as   \:<address> <byte1> <byte2> ... <byte16><CR+LF> etc..  for example  :0000 71 00 f8 00 b3 f8 09 a3 d3 c0 02 92 f8 01 b6 f8
 - View and Edit memory contents (in hex).
 - Configurable ROM areas are coloured pale red in the memory display. Cannot be written to by the sim, but can still be edited by the user.
 - Trace log shows run instruction history (disabled by checkbox, for greatly increased performance).
