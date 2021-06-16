@@ -3,22 +3,22 @@ Simulator for the RCA COSMAC CDP1802 Microprocessor
 
 FEATURES
 ========
-View and Edit contents of all processor registers.
-Load/Save any memory block from/to a file in Intel Hex format (.hex), "memory dump" format (.rom), or raw binary (.bin) (i.e most EPROM burners e.g TL866).
-   - Note the .rom file format is a text file formatted as   :<address> <byte1> <byte2> ... <byte16><CR+LF> etc..  for example  :0000 71 00 f8 00 b3 f8 09 a3 d3 c0 02 92 f8 01 b6 f8
-View and Edit memory contents (in hex).
-Configurable ROM areas are coloured pale red in the memory display. Cannot be written to by the sim, but can still be edited by the user.
-Trace log shows run instruction history (disabled by checkbox, for greatly increased performance).
-Multiple Breakpoints can be set by either Address or Register Value.
-Single Step through running code.
-Serial Terminal. Configurable for 2400/9600 bps, 7/8 bits, Start Bit, Invert/not Q.  Supports Membership Card monitor and "Cenker" RCA Basic3.
+- View and Edit contents of all processor registers.
+- Load/Save any memory block from/to a file in Intel Hex format (.hex), "memory dump" format (.rom), or raw binary (.bin) (i.e most EPROM burners e.g TL866).
+  Note the .rom file format is a text file formatted as   :<address> <byte1> <byte2> ... <byte16><CR+LF> etc..  for example  :0000 71 00 f8 00 b3 f8 09 a3 d3 c0 02 92 f8 01 b6 f8
+- View and Edit memory contents (in hex).
+- Configurable ROM areas are coloured pale red in the memory display. Cannot be written to by the sim, but can still be edited by the user.
+- Trace log shows run instruction history (disabled by checkbox, for greatly increased performance).
+- Multiple Breakpoints can be set by either Address or Register Value.
+- Single Step through running code.
+- Serial Terminal. Configurable for 2400/9600 bps, 7/8 bits, Start Bit, Invert/not Q.  Supports Membership Card monitor and "Cenker" RCA Basic3.
  Transmits on Q and receives on EF3 or EF4. It is asynchronous, so it operates like a UART. The serial inbound character queue is visible to the user.
-Windows 7, Windows 10 (tested on both).  Requires .NET framework.
-High-DPI support (Renders nicely, tested on QHD/WQHD 13" laptop. No fuzziness or overlaid fields)
-I/O Bus current state and history trace shows INP and OUT interactions.
-Significant performance enhancements in Run mode (full speed). Now runs several times faster than previous version.
-Various fixes and improvements to register editing, IDLe mode, interrupt support, execution tracing etc..
-Improved execution tracing vs. performance.
+- Windows 7, Windows 10 (tested on both).  Requires .NET framework.
+- High-DPI support (Renders nicely, tested on QHD/WQHD 13" laptop. No fuzziness or overlaid fields)
+- I/O Bus current state and history trace shows INP and OUT interactions.
+- Significant performance enhancements in Run mode (full speed). Now runs several times faster than previous version.
+- Various fixes and improvements to register editing, IDLe mode, interrupt support, execution tracing etc..
+- Improved execution tracing vs. performance.
 
 
 Current v1.4.0.0 May 2021: Fixed some bugs! Added new Serial Terminal parameters. Now runs "Cenker" RCA Basic3 v1.1 and Chuck Yakym's Membership Card Monitor. Details below.
